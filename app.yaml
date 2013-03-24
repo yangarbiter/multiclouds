@@ -1,0 +1,29 @@
+application: multiclouds
+version: 2-6
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /favicon\.ico
+  static_files: images/favicon.ico
+  upload: images/favicon\.ico
+- url: /introduction
+  static_dir: templates/introduction
+- url: /user/style
+  static_dir: templates/css/filemanage/style
+- url: /user/js
+  static_dir: templates/css/filemanage/js
+- url: /user/icon
+  static_dir: templates/css/filemanage/icon
+- url: /css
+  static_dir: templates/css
+- url: /images
+  static_dir: images
+- url: /.*
+  script: main.app
+
+  
+libraries:                                                                      
+- name: jinja2                                                                  
+  version: latest 

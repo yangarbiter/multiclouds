@@ -1,0 +1,14 @@
+body
+{
+  background-color:rgb(230,255,150);
+}
+#all
+{
+  width:450px;
+  margin: 0 auto;
+  text-align:center;
+}
+#upper
+{
+  padding:50px;
+}

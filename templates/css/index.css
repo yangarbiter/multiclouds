@@ -1,0 +1,56 @@
+body 
+{ 
+  background-color: #c9ff96; 
+  font-family: Century Gothic, Verdana, Times New Roman, sans-serif; 
+} 
+#welcome 
+{ 
+  font-size:200%; 
+  text-decoration: blink; 
+} 
+#loginbanner 
+{ 
+  font-size:200%; 
+} 
+#content 
+{ 
+  width:450px; 
+  margin: 0 auto; 
+} 
+#welcome 
+{ 
+  width:403px; 
+  margin: 0 auto; 
+} 
+#logo 
+{ 
+  width:450px; 
+  margin: 0 auto; 
+} 
+#urls 
+{ 
+  width:366px; 
+  margin: 0 auto; 
+} 
+#upperdiv 
+{
+  padding: 50px;
+}
+#loginban 
+{ 
+  width:251px; 
+  margin: 0 auto; 
+}
+#lowerdiv
+{
+  padding-top: 50px;
+  padding-right: 557px;
+  padding-bottom: 50px;
+  padding-left: 557px;
+  margin: 0 auto;
+}
+#help
+{
+  width:50px; 
+  text-align:center;
+}

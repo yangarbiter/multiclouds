@@ -1,0 +1,52 @@
+<html>
+    <head>
+  <style>
+      body
+      {
+    background-color:rgb(230,255,150);
+      }
+      div
+      {
+    width:200px;
+    margin:10px auto 10px auto;
+      }
+  </style>
+        <script src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/document_iterator.js"></script>
+        <script src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/find_proxy.js"></script>
+        <script src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/get_html_text.js"></script>
+        <script src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/global_constants.js"></script>
+        <script src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/name_injection_builder.js"></script>
+        <script src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/number_injection_builder.js"></script>
+        <script src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/menu_injection_builder.js"></script>
+        <script src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/string_finder.js"></script>
+        <script src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/change_sink.js"></script>
+        <meta name="document_iterator.js">
+        <meta name="find_proxy.js">
+        <meta name="get_html_text.js">
+        <meta name="global_constants.js">
+        <meta name="name_injection_builder.js">
+        <meta name="number_injection_builder.js">
+        <meta name="menu_injection_builder.js">
+        <meta name="string_finder.js">
+        <meta name="change_sink.js">
+    </head>
+    <body>
+        <form method="post">
+            <div class="spacer">&nbsp;</div>            
+    <div class="row">
+                <span class="formlabel">Email address</span>
+                <span class="forminput"><input type="text" name="email"></span>
+            </div>
+            <div class="row">
+                <span class="formlabel">Message Box</span>
+                <span class="forminput"><textarea rows="5" cols="25" name="message" class="textarea"></textarea></span>
+            </div>
+            <div class="row">
+                <span class="formlabel"></span>
+                <span class="forminput"><input type="submit" value="submit" class="submit"></span>
+            </div>
+        </form>
+    </body>
+    <span id="skype_highlighting_settings" display="none" autoextractnumbers="1" hightlightingswitched="0"></span>
+    <object id="skype_plugin_object" location.href="http://multiclouds.appspot.com/user/contactus" location.hostname="multiclouds.appspot.com" style="position: absolute; visibility: hidden; left: -100px; top: -100px;" width="0" height="0" type="application/x-vnd.skype.click2call.chrome.5.7.0"></object>
+</html>
