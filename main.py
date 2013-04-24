@@ -295,24 +295,15 @@ class userPage(Handler):
                     <p>&nbsp&nbsp&nbspSky&nbsp&nbsp Drive&nbsp&nbsp</p>
                 </div>
                 <p><br/></p>
-                <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                <input type="button" onClick="parent.location='http://multiclouds.appspot.com/user/addbox'" value="Extend Box">
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                <input type="button" onClick="parent.location='http://multiclouds.appspot.com/user/adddropbox'" value="Extend Dropbox">
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                <input type="button" onClick="parent.location='http://multiclouds.appspot.com/user/addgdrive'" value="Extend Google Drive">
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                <input type="button" onClick="parent.location='http://multiclouds.appspot.com/user/addskydrive'" value="Extend SkyDrive">
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                <input type="button" onClick="parent.location='http://multiclouds.appspot.com/user/getallinfo'" value="List All Data Info">
-                <br/>
+                <p>
+                    <input type="button" onClick="parent.location='http://multiclouds.appspot.com/user/addbox'" value="Extend Box" style="margin-left: 80px;">
+                    <input type="button" onClick="parent.location='http://multiclouds.appspot.com/user/adddropbox'" value="Extend Dropbox" style="margin-left: 80px;">
+                    <input type="button" onClick="parent.location='http://multiclouds.appspot.com/user/addgdrive'" value="Extend Google Drive" style="margin-left: 80px;">
+                    <input type="button" onClick="parent.location='http://multiclouds.appspot.com/user/addskydrive'" value="Extend SkyDrive" style="margin-left: 80px;">
+                    <input type="button" onClick="parent.location='http://multiclouds.appspot.com/user/getallinfo'" value="List All Data Info"style="margin-left: 80px;">
+                    <br/>
                 </p><br/>
-                <table>
+                <table style="margin-bottom: 150px;">
                 <tr>
                   <th class='title'>Box</th>
                   <th class='title'>DropBox</th>
@@ -321,16 +312,10 @@ class userPage(Handler):
                 </tr>
                 %s
               </table>
-                <br><br><br><br><br><br><br>
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                <a href="http://multiclouds.appspot.com/user/contactus" style="font-size: 25px; border: 1px outset green; color: green; text-shadow: 3px 3px lightgreen;" >Contact Us</a>
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                <a href="%s" style="font-size: 25px; border: 1px outset green; color: green; text-shadow: 3px 3px lightgreen;">Log Out</a>
+                <div>
+                    <a href="http://multiclouds.appspot.com/_ah/openid_logout?continue=http://multiclouds.appspot.com" style="font-size: 25px; border: 1px outset green; color: green; text-shadow: 3px 3px lightgreen;margin-left: 700px;">Log Out</a>
+                    <a href="http://multiclouds.appspot.com/user/contactus" style="font-size: 25px; border: 1px outset green; color: green; text-shadow: 3px 3px lightgreen;margin-left: 50px;">Contact Us</a>
+                </div>
             </body>
         </html>
         """
